@@ -18,7 +18,7 @@ Note: You have to install at least riscv-fesvr, riscv-gnu-toolchain, riscv-isa-s
 ## Compile the given program from source code
 Once you get the needed tools, you can download the source code of this program and compile it with the belowing commands. It will generate the binary of our main program, bns-riscv, and the testing program, checker. Then, use spike to run our program and test it right after the execution.
 
-	$ git clone https://github.com/nctu-psclab/CO-FP-2016.git
+	$ git clone https://github.com/nctu-pcslab/CO-FP-2016.git
 	$ cd CO-FP-2016
 	$ make 
 	$ make run
@@ -46,7 +46,7 @@ Note: Task1.1 plus task1.2 will be responsible for the total points in the compl
 		$ spike --ic=64:1:64 --dc=64:1:64 pk bns-riscv
 And the result you get may look like this
 
-	![screenshot](https://github.com/myislin/BlurAndSharpen/blob/master/screenshot.png "screenshot")
+	![screenshot](https://github.com/nctu-pcslab/CO-FP-2016/blob/master/screenshot.png "screenshot")
 
 * You must have performance enhancement (less total_cache_access_time) to get points. If your result is equal or worse than the reference code, you will get zero point on this part.
 * You can test your output by executing the ckecker and you must pass the test to make sure your result is right. If you pass the ckecking, you will get the message "Congratulations! You have passed the checking.". On the other hand, you will get the message "Sorry, your results are wrong!".

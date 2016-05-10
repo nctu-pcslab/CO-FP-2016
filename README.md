@@ -109,10 +109,14 @@ Note: Task2.1 plus task2.2 will be responsible for the total points in the compl
 
 ## Grading policy (The same for the two tasks)
 Upload all the asked files to E3 in right format before the deadline. TA will write a testing script to grade your project automatically. So if you don't follow the naming policy, you will have extraordinary high probability to get zero point. For the late submission in three days, you will get 70% of your grade. For who hasn't uploaded more than 3 days after the due date, you will just get zero point. In addition, the grade will be evaluated by the below items:
+* Grouping
+	* Setup a group with 1 ~ 3 member and fill in your group's infomation [here](https://docs.google.com/spreadsheets/d/1v0-n2gOtMDSq8B5MPeW7y7OrlmjTsapA5VyKTQ3PgAs/edit#gid=0) before 2016/05/16 23:59.
+	* Pick up a leader who has to manage the this team.
+	* Each group only need to upload one package.
 * Must followed rules
-	* Name your report as "Report_task#_studentID.pdf". For example, if it's task1 and your ID is 0605040, then set your report as "Report_task1_0605040.pdf".
-	* Put the needed source codes under a directory called "code_studentID".
-	* Pack your report and source code into a file named "Task#_studentID.zip" in zip format. Then upload it to E3.
+	* Name your report as "Report_task#_LeaderStudentID.pdf". For example, if it's task1 and the leader's ID is 0605040, then set your report as "Report_task1_0605040.pdf".
+	* Put the needed source codes under a directory called "code_LeaderStudentID".
+	* Pack your report and source code into a file named "Task#_LeaderStudentID.zip" in zip format. Then upload it to E3.
 * Completeness 40%
 	* You must finish the necessary tasks and follow the requirements to get the points in this part.
 * Report 40% (Your report should include the following parts)

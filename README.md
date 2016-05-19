@@ -29,7 +29,7 @@ You may want to test the program first on your host machine. Similarly, you can 
 	$ make run-host
 
 ## Task requirements
-### Task 1 - Software approach (Due date: 5/31 23:59)
+### Task 1 - Software approach (Due date: 6/7 23:59)
 TA has provided the reference code. In the program, it will apply two different filters on three input images respectively and generate 6 (2X3) outputs which are stored under "Output" directory. You can read previous descriptoin to know how to use this reference code. Due to the TA's limited programming skills. The reference program looks like has extremely poor cache performance. Please use your solid computer organization knowledge and ultimate coding techniques to rewrite the program and make it work better. 
 
 Note: Task1.1 plus task1.2 will be responsible for the total points in the complteness part (40% in total, please check the grading policy)
@@ -68,7 +68,7 @@ spike also supports L2 cache simulation by plusing "--l2" as the options. You ca
 * Put the configuration in the Makefile and make TA can use "make run" to rerun your program under corresponding directory.
 * Discuss the impacts in your report.
 
-### Task 2 - Hardware approach (Due date: 6/14 23:59)
+### Task 2 - Hardware approach (Due date: 6/21 23:59)
 As what you have learned in the class, the behaviors of the cache can incluence the performance dramatically. So it's possible to improve it through modifying the design of the cache. For spike, the riscv-isa-simulator, the related files of the cache simulation are "cachesim.cc" and "cachesim.h". (You can find those files under the directory "/path/to/riscv-isa-sim/riscv") You can customize the cache behavior by modifying these two file. You can redesign the replacement policy or add a prefetching mechanism onto the cache simulation to gain better cache performance.
 
 Note: Task2.1 plus task2.2 will be responsible for the total points in the completeness part (40% in total, please check the grading policy)
